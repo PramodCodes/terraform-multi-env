@@ -6,10 +6,10 @@ terraform {
     }
   }
     backend "s3" {
-    bucket = "pka.in.net"
-    key    = "pka-tfstateKey"
-    region = "us-east-1"
-    dynamodb_table = "terraform-state"
+  #   bucket = "pka.in.net"
+  #   key    = "pka-tfstateKey"
+  #   region = "us-east-1"
+  #   dynamodb_table = "terraform-state"
   }
 }
 
