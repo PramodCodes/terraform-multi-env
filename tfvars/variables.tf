@@ -1,9 +1,9 @@
 variable "instance_names" {
   type = map
-  default = {
-    mongodb = "t3.small"
-    redis = "t2.micro"
-    mysql = "t3.small"
+  # default = {
+    # mongodb = "t3.small"
+    # redis = "t2.micro"
+    # mysql = "t3.small"
     # rabbitmq = "t2.micro"
     # catalogue = "t2.micro"
     # cart = "t2.micro"
@@ -12,7 +12,7 @@ variable "instance_names" {
     # payment = "t2.micro"
     # dispatch = "t2.micro"
     # web = "t2.micro"
-  }
+  # }
 }
 
 variable "zone_id" {
